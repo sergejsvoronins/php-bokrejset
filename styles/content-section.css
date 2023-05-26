@@ -1,0 +1,47 @@
+.main_content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem 0;
+    
+}
+.main_content div {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+}
+.main_content div a {
+    padding: 1rem;
+    width: 30%;
+    height: 100px;
+    background-color: gold;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_content div a:hover {
+    opacity: .8;
+    transform: scale(1.02);
+}
+.main_content div a div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_content_review {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main_content_review table{
+    width: 80%;
+}
+.main_content_review table tbody tr th, td{
+    background-color: lightskyblue;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 0.2rem;
+}

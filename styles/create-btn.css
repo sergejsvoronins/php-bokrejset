@@ -1,0 +1,17 @@
+.create_btn_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.create_btn_section div {
+width: 100;
+text-align: center;
+}
+.create_btn_section a {
+    padding: 0.6rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.4rem;
+}

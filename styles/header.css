@@ -1,0 +1,13 @@
+header {
+    height: 10vh;
+    background-color:crimson;
+    display: flex;
+    justify-content: start;
+    padding-left: 1rem;
+    align-items: end;
+}
+.header_section {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,21 @@
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    background-color:crimson;
+    padding: 0  1rem;
+}
+nav a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: .6;
+}

@@ -1,0 +1,15 @@
+.search_section {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+.search_section form{
+    width: 60%;
+    display: flex;
+    gap: 1%;
+}
+.search_section form input {
+    width: 79%;
+    padding: .4rem;
+}
